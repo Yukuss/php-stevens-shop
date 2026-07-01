@@ -1,0 +1,61 @@
+@media (max-width: 450px) {
+  .products {
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  header {
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px 3%;
+  }
+
+  .logo {
+    order: 1;
+    margin-right: auto;
+    font-size: 18px;
+  }
+
+  nav {
+    order: 3;
+    width: 100%;
+  }
+
+  nav ul {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 10px;
+  }
+
+  main {
+    padding: 0 15px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 14px;
+  }
+
+  .product-image-container {
+    height: 180px;
+  }
+
+  .product-info {
+    padding: 15px;
+  }
+
+  a.btn,
+  .btn {
+    padding: 10px 15px;
+    font-size: 14px !important;
+    width: 100%;
+  }
+
+  .modal-content {
+    padding: 16px;
+  }
+}
